@@ -1,0 +1,1 @@
+require 'actionmailer_multiple_delivery_methods'
