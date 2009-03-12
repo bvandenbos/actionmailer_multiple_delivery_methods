@@ -4,13 +4,15 @@
 
 Allow actionmailer to deliver via multiple delivery methods.
 
-== Usage
+== Install
 
 ruby script/plugin install git@github.com:bvandenbos/actionmailer_multiple_delivery_methods.git
 
-Then in development.rb (or environment.rb)
+== Usage
 
-    config.action_mailer.delivery_method = [:smtp, :test]
+At something like the following to development.rb (or environment.rb)
+
+  config.action_mailer.delivery_method = [:smtp, :test]
 
 
 
